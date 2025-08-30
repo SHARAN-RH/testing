@@ -3,51 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Under Maintenance</title>
+  <title>Portfolio Under Maintenance</title>
   <style>
     body {
-      background: #f8f9fa;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      color: #333;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
+      color: #fff;
+      text-align: center;
     }
     .container {
-      max-width: 500px;
+      max-width: 600px;
       padding: 20px;
     }
     h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       margin-bottom: 10px;
     }
     p {
       font-size: 1.2rem;
-      color: #666;
+      margin-bottom: 20px;
+      color: #ddd;
     }
     .loader {
       margin: 20px auto;
-      border: 6px solid #ddd;
-      border-top: 6px solid #007bff;
+      border: 6px solid rgba(255, 255, 255, 0.2);
+      border-top: 6px solid #00d9ff;
       border-radius: 50%;
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       animation: spin 1s linear infinite;
     }
     @keyframes spin {
       100% { transform: rotate(360deg); }
     }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+      color: #00d9ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <h1>🚧 Portfolio Under Maintenance 🚧</h1>
     <div class="loader"></div>
-    <h1>We’ll be back soon!</h1>
-    <p>Our website is currently undergoing scheduled maintenance.<br>
-    Thank you for your patience.</p>
+    <p>Hi, I’m <strong>Your Name</strong>.  
+    My portfolio is getting a fresh new look right now.<br>
+    Please check back soon!</p>
+    <div class="footer">
+      <p>In the meantime, you can reach me at  
+      <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </div>
   </div>
 </body>
 </html>
